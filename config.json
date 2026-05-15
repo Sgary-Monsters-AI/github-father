@@ -1,0 +1,14 @@
+{
+  "output_path": "01-内容生产/02-待发布/",
+  "default_mode": "trending",
+  "trending_settings": {
+    "time_range": "today",
+    "language": "all",
+    "count": 10
+  },
+  "quality_threshold": 75,
+  "ai_taste_threshold": 5,
+  "auto_fix_ai_taste": true,
+  "enable_deduplication": true,
+  "history_file": ".claude/skills/github-father/history.json"
+}

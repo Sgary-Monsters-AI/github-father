@@ -1,0 +1,14 @@
+# github-father
+
+*.pyc
+__pycache__/
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# 历史记录（用户自己生成）
+history.json
+
+# 输出目录
+output/
