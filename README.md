@@ -1,9 +1,16 @@
 # github-father
 
-> GitHub 项目推文生产流水线 - 自动化生成高质量 GitHub 项目推荐推文
+> **注意**：`history.json` 会记录你已推荐的项目。如果不想提交到 Git，请在你的项目中添加：
+> 
+> ```bash
+> echo "history.json" >> .gitignore
+> ```
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/yourusername/github-father)
+## 快速使用
+
+```bash
+/github-father
+```
 
 ## 功能特性
 
@@ -20,10 +27,10 @@
 
 ```bash
 # 使用 npx（推荐）
-npx skills add yourusername/github-father
+npx skills add Sgary-Monsters-AI/github-father
 
 # 或手动安装
-git clone https://github.com/yourusername/github-father.git
+git clone https://github.com/Sgary-Monsters-AI/github-father.git
 cd github-father
 # 将目录复制到 .claude/skills/ 下
 ```
@@ -58,7 +65,7 @@ github-father/
 ├── SKILL.md              # AI 执行剧本
 ├── README.md             # 本文件
 ├── config.json           # 配置文件
-├── history.json          # 历史记录（自动生成）
+├── history.json          # 历史记录（首次使用自动填充）
 └── scripts/              # Python 脚本
     ├── deduplicate.py    # 去重验证
     ├── evaluate.py       # 质量评估
@@ -198,8 +205,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 
 ## 联系方式
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- X/Twitter: [@yourhandle](https://x.com/yourhandle)
+- GitHub: [@Sgary-Monsters-AI](https://github.com/Sgary-Monsters-AI)
 
 ---
 
